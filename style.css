@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    
+}
+.highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+img{
+    width: 100%;
+}
