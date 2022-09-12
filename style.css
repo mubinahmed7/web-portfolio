@@ -81,5 +81,12 @@ background-position: 50% left;
     border-left: 8px solid tomato;
     border-image: linear-gradient(lightsalmon,tomato);
    border-image-slice: 1;
-   background-image: linear-gradient(#33ccff, #ff99cc);
+  
+  
+}
+#side-border2{
+    border-left: 8px solid blue;
+    border-image: linear-gradient(#ff99cc,blue);
+    border-image-slice: 1;
+ 
 }
