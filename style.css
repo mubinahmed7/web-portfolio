@@ -74,13 +74,14 @@ section{
 }
 .experiences{
   background-image: url(images/exp-bg.png);
+  background-position: left ;
   background-repeat: no-repeat;
 background-position: 50% left;
 
 }
 #side-border{
-    border-left: 8px solid tomato;
-    border-image: linear-gradient(lightsalmon,tomato);
+    border-left: 8px solid;
+    border-image: linear-gradient(#ff99cc,blue);
    border-image-slice: 1;
    background-image: linear-gradient(#ffff00,#ff99cc);
   
@@ -88,8 +89,17 @@ background-position: 50% left;
 }
 #side-border2{
     border-left: 8px solid blue;
-    border-image: linear-gradient(#ff99cc,blue);
+    border-image: linear-gradient(#ffff00,#66ff33);
     border-image-slice: 1;
     background-image: linear-gradient(#ff99cc,#33ccff);
  
+}
+.ex{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:mediumaquamarine ;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
 }
